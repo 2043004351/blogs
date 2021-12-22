@@ -43,8 +43,8 @@ function createPerson(name, age) {
     o.age = age;
     return o;
 }
-var person1 = createPerson('andy_chen', 18);
-var person2 = createPerson('andy_chen', 18);
+var person1 = createPerson('abinge', 18);
+var person2 = createPerson('abinge', 18);
 ```
 
  <p style="color:red">工厂模式可以创建多个相似对象的问题，却没解决对象识别的问题。例如person1的类型是什么</p>
@@ -59,8 +59,8 @@ function Person(name, age) {
         alert(this.name);
     };
 }
-var person1 = new Person('andy_chen', 18);
-var person2 = new Person('andy_chen', 18);
+var person1 = new Person('abinge', 18);
+var person2 = new Person('abinge', 18);
 person1.sayName();
 person2.sayName();
 ```
@@ -105,7 +105,7 @@ person2.sayName();
 //原型模式的实现：
 function Person() {}
 
-Person.prototype.name = 'andy chen';
+Person.prototype.name = 'abinge';
 
 Person.prototype.sayName = function() {
     alert(this.name);
@@ -121,7 +121,7 @@ Person.prototype.sayName = function() {
 function Person() {}
 Person.prototype = {
     constructor: Person, //因为这种写法会覆盖掉原来的Person.prototype,需要重新为constructor赋值
-    name: 'andy chen',
+    name: 'abinge',
     sayName: function() {
         alert(this.name);
     }
@@ -148,8 +148,8 @@ Person.prototype = {
         alert(this.name);
     }
 };
-var person1 = new Person('andy chen');
-var person2 = new Person('andy chen');
+var person1 = new Person('abinge');
+var person2 = new Person('abinge');
 ```
 
 除了使用组合模式创建对象，还有以下几种方式，可以针对不同的情况选择。

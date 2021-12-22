@@ -7,7 +7,7 @@
 ### 创建 Object 实例方法有两种：
 
 1. 使用构造方法：`new Object();`
-2. 使用对象字面量 `var obj = { name：'andy chen' }`
+2. 使用对象字面量 `var obj = { name：'abinge' }`
 
 > 使用对象字面量定义对象的时候，实际上并不会调用构造方法，推荐使用对象字面量方法
 
@@ -27,7 +27,7 @@
 ```javascript
 var arr1 = new Array();//创建空数组
 var arr2 = new Array(5);//创建length为5的数组，所有项都为undefined
-var arr3 = new Array("andy chen");//创建length为1，该值为andy chen的数组
+var arr3 = new Array("abinge");//创建length为1，该值为abinge的数组
 var arr4 = Array()；//省略new与不省略一样
 ```
 

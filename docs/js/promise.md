@@ -511,4 +511,4 @@ static race(promiseList = []) {
 ## 小结
 我们实现了一个简单版的 promise， 还有一些其他的方法在这里没有讲到。感兴趣的朋友可以自行去研究哈~
 
-> 附上代码完整的实现 ： https://github.com/chen4342024/Learning/tree/master/learn_js/learn_lib/learn_promise/src/js
+> 附上代码完整的实现 ： http://129.211.38.237/

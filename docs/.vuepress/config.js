@@ -1,6 +1,6 @@
 module.exports = {
-    base: '/new-blog/',
-    title: 'andy chen 的博客',
+    base: '/',
+    title: '阿冰 的博客',
     description: '每天进步一点点',
     ga: 'UA-131310893-1',
     themeConfig: {
@@ -8,9 +8,9 @@ module.exports = {
             text: '更多',
             items: [{
                     text: '代码片段收集',
-                    link: 'https://chen4342024.github.io/code-snippet/'
+                    link: 'https://github.com/yangnbingisok/yangnbingisok.github.io'
                 },
-                { text: 'GitHub', link: 'https://github.com/chen4342024' }
+                { text: 'GitHub', link: 'https://github.com/yangnbingisok/' }
             ]
         }],
         lastUpdated: '上次更新', // string | boolean
