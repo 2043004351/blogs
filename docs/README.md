@@ -1,6 +1,6 @@
 ---
 home: true
-heroImage: /logo.jpeg
+heroImage: /logo.png
 actionText: 进入博客
 actionLink: /js/promise
 meta:
