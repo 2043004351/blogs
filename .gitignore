@@ -1,0 +1,31 @@
+.DS_Store
+node_modules
+/dist
+
+# local env files
+#.env.local
+#.env.*.local
+
+# Log files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Editor directories and files
+.idea
+.vscode
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+.history
+dist.rar
+debug.log
+
+#自动生成的雪碧图忽略
+src/less/_sprite.less
+src/assets/images/sprite/sprite.png
+src/less/_sprites.less
+src/assets/images/sprites/sprite.png
