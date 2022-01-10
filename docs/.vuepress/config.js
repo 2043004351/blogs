@@ -70,7 +70,8 @@ module.exports = {
             {
                 title: '算法',
                 collapsable: false,
-                children: ['js/algorithm/baseSort']
+                children: ['js/algorithm/baseSort'],
+                children: ['js/algorithm/advanceSort'],
             },
             {
                 title: '其他',
