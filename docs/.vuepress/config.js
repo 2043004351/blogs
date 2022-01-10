@@ -17,39 +17,39 @@ module.exports = {
         sidebar: [{
                 title: 'JS 相关',
                 collapsable: false,
-                children: ['js/promise', 'js/compressImage', 'js/task']
+                children: ['view/promise', 'view/compressImage', 'view/task']
             },
             {
                 title: 'JS高级编程设计',
                 collapsable: false,
                 children: [
-                    'js/js-book/advanced',
-                    'js/js-book/bestPractice',
-                    'js/js-book/canvas',
-                    'js/js-book/context',
-                    'js/js-book/env',
-                    'js/js-book/event',
-                    'js/js-book/oop',
-                    'js/js-book/referenceType'
+                    'view/js-book/advanced',
+                    'view/js-book/bestPractice',
+                    'view/js-book/canvas',
+                    'view/js-book/context',
+                    'view/js-book/env',
+                    'view/js-book/event',
+                    'view/js-book/oop',
+                    'view/js-book/referenceType'
                 ]
             },
             {
                 title: 'underscore源码解析',
                 collapsable: false,
-                children: ['js/underscore/restArgs', 'js/underscore/tip']
+                children: ['view/underscore/restArgs', 'view/underscore/tip']
             },
             {
                 title: 'snabbdom源码解析',
                 collapsable: false,
                 children: [
-                    'js/vue/snabbdom/prepare.md',
-                    'js/vue/snabbdom/h.md',
-                    'js/vue/snabbdom/vnode.md',
-                    'js/vue/snabbdom/patch.md',
-                    'js/vue/snabbdom/hooks.md',
-                    'js/vue/snabbdom/modules.md',
-                    'js/vue/snabbdom/event.md',
-                    'js/vue/snabbdom/util.md',
+                    'view/vue/snabbdom/prepare.md',
+                    'view/vue/snabbdom/h.md',
+                    'view/vue/snabbdom/vnode.md',
+                    'view/vue/snabbdom/patch.md',
+                    'view/vue/snabbdom/hooks.md',
+                    'view/vue/snabbdom/modules.md',
+                    'view/vue/snabbdom/event.md',
+                    'view/vue/snabbdom/util.md',
 
                 ]
             },
@@ -57,21 +57,21 @@ module.exports = {
                 title: 'vue-router源码解析',
                 collapsable: false,
                 children: [
-                    'js/vue/vue-router/prepare.md',
-                    'js/vue/vue-router/plugin.md',
-                    'js/vue/vue-router/mode.md',
-                    'js/vue/vue-router/match.md',
-                    'js/vue/vue-router/navEvent.md',
-                    'js/vue/vue-router/component.md',
-                    'js/vue/vue-router/scroll.md',
-                    'js/vue/vue-router/async.md',
+                    'view/vue/vue-router/prepare.md',
+                    'view/vue/vue-router/plugin.md',
+                    'view/vue/vue-router/mode.md',
+                    'view/vue/vue-router/match.md',
+                    'view/vue/vue-router/navEvent.md',
+                    'view/vue/vue-router/component.md',
+                    'view/vue/vue-router/scroll.md',
+                    'view/vue/vue-router/async.md',
                 ]
             },
             {
                 title: '算法',
                 collapsable: false,
-                children: ['js/algorithm/baseSort'],
-                children: ['js/algorithm/advanceSort'],
+                children: ['view/algorithm/baseSort'],
+                children: ['view/algorithm/advanceSort'],
             },
             {
                 title: '其他',
