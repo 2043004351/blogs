@@ -1,6 +1,6 @@
 # js 时间的快捷方式
 
-#### 获取当前时间
+## 获取当前时间
 
 ```javascript
 /*
@@ -43,7 +43,7 @@ function formatDate(date, format) {
 
 :::
 
-#### 适配问题: ios 时间格式
+## 适配问题: ios 时间格式
 
 ```javascript
 // 快速切换格式
@@ -64,7 +64,7 @@ function returnSplitIosTime(time, formate = 'yyyy/MM/dd HH:mm', formateTime = 'y
 }
 ```
 
-#### 获取上周第一天
+## 获取上周第一天
 
 ```javascript
 /**
@@ -82,7 +82,7 @@ function getLastWeekBeginDate(now) {
 }
 ```
 
-#### 获取上周最后一天
+## 获取上周最后一天
 
 ```javascript
 /**
@@ -99,7 +99,7 @@ function getLastWeekEndDate(now) {
 }
 ```
 
-#### 获取本周第一天
+## 获取本周第一天
 
 ```javascript
 /**
@@ -116,7 +116,7 @@ function getCurrentWeekBeginDate(now) {
 }
 ```
 
-#### 获取本周最后一天
+## 获取本周最后一天
 
 ```javascript
 /**
@@ -133,7 +133,7 @@ function getCurrentWeekEndDate(now) {
 }
 ```
 
-#### 获取当前月的第一天
+## 获取当前月的第一天
 
 ```javascript
 /**
@@ -146,7 +146,7 @@ function getCurrentMonthFirst(date) {
 }
 ```
 
-#### 获取当前月的最后一天
+## 获取当前月的最后一天
 
 ```javascript
 /**
@@ -161,7 +161,7 @@ function getCurrentMonthLast(date) {
 }
 ```
 
-#### 获取上个月的第一天
+## 获取上个月的第一天
 
 ```javascript
 /**
@@ -174,7 +174,7 @@ function getLastMonthFirst(date) {
 }
 ```
 
-#### 获取上个月的最后一天
+## 获取上个月的最后一天
 
 ```javascript
 /**
@@ -189,7 +189,7 @@ function getLastMonthLast(date) {
 }
 ```
 
-#### 获取昨天
+## 获取昨天
 
 ```javascript
 /**
@@ -202,7 +202,7 @@ function getYesterday(date) {
 }
 ```
 
-#### 根据指定日期得到日期范围数组集合
+## 根据指定日期得到日期范围数组集合
 
 ```javascript
 /**
@@ -245,7 +245,7 @@ function getDateInfo(type, baseDate) {
 }
 ```
 
-#### 判断年份是否为润年
+## 判断年份是否为润年
 
 ```javascript
 /**
@@ -258,7 +258,7 @@ function isLeapYear(year) {
 }
 ```
 
-#### 获取某一年份的某一月份的天数
+## 获取某一年份的某一月份的天数
 
 ```javascript
 /**
@@ -270,7 +270,7 @@ function getMonthDays(year, month) {
 }
 ```
 
-#### 获取某年的某天是第几周
+## 获取某年的某天是第几周
 
 ```javascript
 /**
@@ -302,7 +302,7 @@ function getWeekNumber(y, m, d) {
 }
 ```
 
-#### 日期加减
+## 日期加减
 
 ```javascript
 /**
@@ -315,7 +315,7 @@ function addDate(date, n) {
 }
 ```
 
-#### 月份加减
+## 月份加减
 
 ```javascript
 /**
@@ -328,7 +328,7 @@ function addMonth(date, n) {
 }
 ```
 
-#### 年份加减
+## 年份加减
 
 ```javascript
 /**
@@ -341,7 +341,7 @@ function addYear(date, n) {
 }
 ```
 
-#### 日期相差多少天, 日期格式 2020-11-11 格式
+## 日期相差多少天, 日期格式 2020-11-11 格式
 
 ```javascript
 /**
@@ -357,7 +357,7 @@ function dateDiff(sDate1, sDate2) {
 }
 ```
 
-##### 时间转换为 小时/分钟
+### 时间转换为 小时/分钟
 
 ```javascript
 /**

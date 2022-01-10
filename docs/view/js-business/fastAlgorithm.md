@@ -1,6 +1,6 @@
 # js 快捷实现
 
-### 会计计数法
+## 会计计数法
 
 实例: ![task](./image/AccountingMethod.png)
 
@@ -55,7 +55,7 @@ function number_format(num) {
 
 :::
 
-### JS 获取时间
+## JS 获取时间
 
 ```javascript
 /*
@@ -98,7 +98,7 @@ function formatDate(date, format) {
 
 :::
 
-### 输出当前用户环境
+## 输出当前用户环境
 
 ```javascript
 function judgeClient() {
@@ -117,7 +117,7 @@ function judgeClient() {
 
 输出: `judgeClient() // ios`
 
-### 判断对象是否为空
+## 判断对象是否为空
 
 ```javascript
 /**
@@ -133,7 +133,7 @@ function isObj(obj) {
 
 输出: `isObj(1) // false --- isObj({a:1}) // true `
 
-### 手机号码只验证纯数字
+## 手机号码只验证纯数字
 
 ```javascript
 /**
@@ -148,7 +148,7 @@ function isMobile(mobile) {
 
 输出: `isMobile(1) // false --- isMobile(18839126297) // true `
 
-### 直接深拷贝
+## 直接深拷贝
 
 ```javascript
 /**
@@ -176,7 +176,7 @@ function deepClone(obj) {
 
 输出: `copyItem({a:1}) // {a:1} --- copyItem([{a:1}]) // [{a:1}] `
 
-### 按对象属性进行升序排序
+## 按对象属性进行升序排序
 
 ```javascript
 /**
@@ -191,7 +191,7 @@ function compareObj(attr) {
 }
 ```
 
-### 防抖
+## 防抖
 
 ```javascript
 /**
@@ -206,7 +206,7 @@ function debounce(fn, wait) {
 
 输出: `debounce(compareObj(),300)`
 
-### 数组对象求和
+## 数组对象求和
 
 ```javascript
 /**

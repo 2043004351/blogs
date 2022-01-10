@@ -35,7 +35,7 @@ console.log('global');
 
 #### 执行过程如下：
 
-![task](../image/task.jpeg)
+![task](./image/task.jpeg)
 
 1. JavaScript 引擎首先从 macrotask queue 中取出**第一个任务**，
 2. 执行完毕后，将**microtask queue**中的**所有任务**取出，按顺序**全部执行**；
