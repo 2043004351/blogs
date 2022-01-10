@@ -18,7 +18,12 @@ module.exports = {
 			{
 				title: 'JS 相关',
 				collapsable: false,
-				children: ['view/promise', 'view/compressImage', 'view/task'],
+				children: ['view/js-base/promise', 'view/js-base/compressImage', 'view/js-base/task'],
+			},
+			{
+				title: 'JS业务功能',
+				collapsable: false,
+				children: ['view/js-business/fastAlgorithm', 'view/js-business/time'],
 			},
 			{
 				title: 'JS高级编程设计',
