@@ -2,7 +2,7 @@
 home: true
 heroImage: /logo.png
 actionText: 进入博客
-actionLink: /js/promise
+actionLink: /view/promise
 meta:
     - name: google-site-verification
       content: PrUrYkjG0xfrEWLpR4jriOTYnkOAbvxWdeazp79v4Ts
